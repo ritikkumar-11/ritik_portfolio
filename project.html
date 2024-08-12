@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>John Roe</title>
+</head>
+
+<body>
+    <!-- Website Layout -->
+    <div class="website_container">
+
+        <!-- Global Menu -->
+        <div id="global_menu_button_container">
+            <p class="site_title">Ritik Kumar Sen</p>
+            <i class="fa fa-bars" id="global_menu_button"></i>
+        </div>
+
+        <ul id="global_menu_items">
+            <div>
+                <i class="fa fa-close" id="global_menu_close_button"></i>
+                <li><a href="index.html"><i class="fa fa-home"></i> About</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="project.html"><i class="fas fa-pen-nib"></i> Projects</a></li>
+                <li><a href="skills.html"><i class="fas fa-cog"></i> Skills</a></li>
+                <li><a href="contact.html"><i class="fas fa-phone-square"></i> Contact</a></li>
+            </div>
+        </ul>
+
+        <!--x Global Menu x-->
+
+        <!-- sidebar -->
+        <div class="sidebar_container">
+            <!-- Sidebar Image -->
+            <div class="image">
+                <img src="img/ritik1.jpeg" alt="Ritik Kumar Sen">
+                <div class="right_image_box"></div>
+                <div class="left_image_box"></div>
+            </div>
+
+            <!-- sidebar Content -->
+            <div class="sidebar_content">
+                <!-- Long name can be applied so easily -->
+                <h2>Ritik Kumar Sen</h2>
+                <p>Front/backend development</p>
+                <p>Competitive Programmer</p>
+                <!-- Social Medias -->
+                <div class="social_media">
+                    <a href="https://github.com/ritikkumar-11" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ritik-kumar-sen-310841250/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+            </div>
+
+            <!-- Sidebar Buttom Menu -->
+            <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
+                <i class="fa fa-bars" id="sidebar_menu_icon"></i>
+            </div>
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar_navigation" id="sidebar_navigation">
+                <li><a href="index.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html"class="active">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+        <!-- content -->
+        <div class="content_container">
+            <!-- Blogs Page -->
+            <div class="blogs_page">
+                <h2 class="title">My <span>Projects</span></h2>
+                <hr class="line">
+                <div class="blogs_container">
+                    <div class="blog_box">
+                        <h2 class="blog_title">Sen's Sphere: Dynamic Blogging Platform</h2>
+                        <p class="blog_text">Description:
+                            Developed a feature-rich, responsive blogging website that allows users to create, read, update, and delete blog posts. This full-stack web application incorporates user authentication and a sleek, modern interface, demonstrating proficiency in both front-end and back-end development.</p>
+                        <img src="img/blogging.png" alt="Blog 3" class="blog_image">
+                        <p class="blog_text">
+                            Key Feature: <br>
+                            <li>User authentication system with secure login and registration</li>
+                            <li>CRUD operations for blog posts (Create, Read, Update, Delete)</li>
+                            <li>Responsive design for optimal viewing on various devices</li>
+                            <li>User-friendly interface with intuitive navigation</li>
+                        </p>
+                        <br>
+                        <p class="blog_text">
+                            Technologies Used: <br>
+                            <li>Front-end: HTML5, CSS3, Bootstrap for responsive design</li>
+                            <li>Back-end: Python, Django framework</li>
+                            <li>Database: Django ORM with SQLite/PostgreSQL</li>
+                            <li>Authentication: Django Allauth for robust user account management</li>
+                            <l1>Forms: Django Crispy Forms for streamlined form rendering</l1>
+                            <l1>Version Control: Git for code management</l1>
+                        </p>
+                        <br>
+                        <p class="blog_text">
+                            Technical Highlights: <br>
+                            <li>Implemented Django's class-based views for efficient CRUD operations</li>
+                            <li>Utilized Django Allauth for secure user authentication and account management</li>
+                            <li>Integrated Crispy Forms to enhance form appearance and user experience</li>
+                            <li>Employed Bootstrap for responsive and mobile-first design</li>
+                            <l1>Implemented user roles and permissions for content management</l1>
+                        </p>
+                        <br>
+                        <p class="blog_text">
+                            Challenges Overcome: <br>
+                            <li>Designed an intuitive user interface that simplifies content creation and management</li>
+                            <li>Implemented secure user authentication to protect user data and content</li>
+                            <li>Optimized database queries for improved performance with increasing content</li>
+                        </p>
+                        <br>
+                        <p class="blog_text">
+                            Outcome: <br>
+Successfully created a fully functional blogging platform that allows users to easily create and manage their content. This project showcases skills in full-stack web development, user authentication implementation, and creating interactive web applications using modern frameworks and libraries.
+<li><a href="https://zephyre.onrender.com" target="_blank" style="color: black; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#39ff14'; this.style.textShadow='0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14';" onmouseout="this.style.color='black'; this.style.textShadow='none';">Live Link</a></li>
+                        </p>
+                    </div>
+                    <!-- Single Blog -->
+                    
+
+                    <!-- Single Blog -->
+                    <div class="blog_box">
+                        <h2 class="blog_title">Zephyre - Weather Update Application</h2>
+                        <p class="blog_text">
+                            Description: <br>
+                            Developed a dynamic weather application named Zephyre that provides real-time weather updates for any specified location. This full-stack web application seamlessly integrates front-end and back-end technologies to deliver accurate and user-friendly weather information.</p>
+                        <img src="img/zephyer.png" alt="Blog 2" class="blog_image">
+                        <p class="blog_text">Technologies Used: <br>
+                            <li>Front-end: HTML5, CSS3, JavaScript</li>
+                            <li>Back-end: Python, Django framework</li>
+                            <li>API Integration: Implemented API calls to fetch current weather data</li>
+                            <li>Version Control: Git for code management and collaboration</li>
+                            <li><a href="https://zephyre.onrender.com" target="_blank" style="color: black; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: all 0.3s ease; display: inline-block;" onmouseover="this.style.color='#39ff14'; this.style.textShadow='0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14';" onmouseout="this.style.color='black'; this.style.textShadow='none';">Live Link</a></li>
+
+                        </p>
+                    </div>
+
+                    <!-- Single Blog -->
+                    <div class="blog_box">
+                        <h2 class="blog_title">WeddingWire.in Clone</h2>
+                        <p class="blog_text">Project Description: <br>
+                            I developed a clone of the WeddingWire.in website, which serves as a comprehensive platform for wedding planning. This project showcases my skills in front-end development, including HTML, CSS, and JavaScript. The clone replicates the design and features of the original website, including the vendor search functionality and detailed service listings.</p>
+                        <img src="img/weddingwire.png" alt="Blog 1" class="blog_image">
+                        <p class="blog_text">Key Features: <br>
+
+                            Design: Accurately reproduced the visual elements, layout, and user interface of the original WeddingWire.in website.
+                            <br>Functionality: Implemented key features such as vendor search and service filtering.
+                            <br>Challenges: Recreated complex design elements and interactive features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
